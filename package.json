@@ -6,6 +6,7 @@
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
+    "start:dev": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,9 +22,12 @@
   "homepage": "https://github.com/mlportu/food-festival#readme",
   "devDependencies": {
     "file-loader": "^6.2.0",
-    "webpack": "^5.0.0",
+    "serve": "^11.3.2",
+    "webpack": "^5.5.0",
     "webpack-bundle-analyzer": "^3.9.0",
-    "webpack-cli": "^4.0.0"
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-pwa-manifest": "^4.2.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
